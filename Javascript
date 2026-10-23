@@ -1,0 +1,30 @@
+
+/* Sugar 'N Spice Bakery JavaScript */
+
+// Display a welcome message
+window.addEventListener("load", function () {
+    console.log("Welcome to Sugar 'N Spice Bakery!");
+
+    alert("Welcome to Sugar 'N Spice Bakery!");
+});
+
+// Back to Top button
+const backToTop = document.createElement("button");
+
+backToTop.textContent = "Back to Top";
+backToTop.id = "backToTop";
+
+backToTop.style.position = "fixed";
+backToTop.style.bottom = "20px";
+backToTop.style.right = "20px";
+backToTop.style.padding = "10px";
+backToTop.style.cursor = "pointer";
+
+document.body.appendChild(backToTop);
+
+backToTop.addEventListener("click", function () {
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+});

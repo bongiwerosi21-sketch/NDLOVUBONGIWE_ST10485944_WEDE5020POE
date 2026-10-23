@@ -96,7 +96,7 @@ The website should be checked in a web browser to confirm that:
 
 ## References
 
-**Note:** Parts 1 and 2 of the assignment I did not include a references. The following Harvard-style references have been added to this README to acknowledge the online documentation used as guidance for HTML, CSS, responsive design and Google Maps.
+**Note:** Parts 1 and 2 of the assignment I did not include a references section. The following Harvard-style references have been added to this README to acknowledge the online documentation used as guidance for HTML, CSS, responsive design and Google Maps.
 
 Google (n.d.) *Google Maps URLs*. Available at: https://developers.google.com/maps/documentation/urls (Accessed: 23 October 2026).
 
